@@ -18,9 +18,4 @@ public class DepartamentoController {
 		return "/departamento/lista";
 	}
 
-	@GetMapping("/cargos")
-	public String cargos() {
-		return "/cargo/cadastro";
-	}
-
 }
