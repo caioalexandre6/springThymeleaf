@@ -1,5 +1,10 @@
 package com.threeway.curso.boot.dao;
 
-public class FuncionarioDaoImpl {
+import org.springframework.stereotype.Repository;
+
+import com.threeway.curso.boot.domain.Funcionario;
+
+@Repository
+public class FuncionarioDaoImpl extends GenericDao<Funcionario> implements FuncionarioDao {
 
 }
